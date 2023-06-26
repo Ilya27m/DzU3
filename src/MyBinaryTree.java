@@ -14,7 +14,7 @@ public class MyBinaryTree<E> {
         }
     }
 
-    private void add(E element) {
+    public void add(E element) {
         if (root == null) {
             root = new Node(element);
             size++;
